@@ -1,5 +1,5 @@
 {
-    "name": "stevegrunwell/lost-in-translation",
+    "name": "wbohlken/lost-in-translation",
     "description": "Uncover missing translations and localization strings in Laravel applications",
     "type": "library",
     "keywords": ["laravel", "laravel package", "translation", "qa"],
@@ -8,11 +8,15 @@
         {
             "name": "Steve Grunwell",
             "homepage": "https://stevegrunwell.com"
+        },
+        {
+            "name": "Wouter Bohlken",
+            "homepage": "https://blendis.nl"
         }
     ],
     "support": {
-        "issues": "https://github.com/stevegrunwell/lost-in-translation/issues",
-        "source": "https://github.com/stevegrunwell/lost-in-translation/"
+        "issues": "https://github.com/wbohlken/lost-in-translation/issues",
+        "source": "https://github.com/wbohlken/lost-in-translation/"
     },
     "require-dev": {
         "orchestra/testbench": "~3.0",
