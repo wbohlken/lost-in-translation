@@ -34,8 +34,9 @@ class Translator extends BaseTranslator {
     {
         $translation = parent::get($key, $replace, $locale, $fallback);
 
-        // The "translation" is unchanged from the key.
-        if ($translation === $key) {
+        $isDefaultLocale = ($locale === config('lostintranslation.default_locale'));
+        // The "translation" is unchanged from the key and the default locale is not used.
+        if ($translation === $key && !$isDefaultLocale) {
 
             // Log the missing translation.
             if (config('lostintranslation.log')) {

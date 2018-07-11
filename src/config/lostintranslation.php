@@ -17,4 +17,6 @@ return [
      * be translated.
      */
     'throw_exceptions' => env('TRANS_ERROR_ON_MISSING', false),
+    
+    'default_locale' => env('DEFAULT_LOCALE', 'nl'),
 ];
