@@ -18,6 +18,12 @@
         "issues": "https://github.com/wbohlken/lost-in-translation/issues",
         "source": "https://github.com/wbohlken/lost-in-translation/"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/wbohlken/lost-in-translation"
+        }
+    ],
     "require-dev": {
         "orchestra/testbench": "~3.0",
         "mockery/mockery": "^1.0"
